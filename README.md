@@ -19,7 +19,7 @@ Before running the application, ensure you have Docker installed on your system.
 2. Navigate to the project directory:
 
     ```bash
-    cd Dockerized-Web-App
+    cd Cloud_Project
     ```
 
 3. Build and run the Docker containers using Docker Compose:
