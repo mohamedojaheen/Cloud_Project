@@ -1,0 +1,12 @@
+# Use the official PHP with Apache image as base
+FROM php:8.0-apache
+
+# Copy HTML and PHP files into the container
+COPY . /var/www/html
+
+# Install dependencies
+RUN apt-get update && \
+    apt-get install -y libpq-dev && \
+    docker-php-ext-install mysqli && \
+    docker-php-ext-install pdo pdo_mysql && \
+    a2enmod rewrite
