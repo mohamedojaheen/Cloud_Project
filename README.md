@@ -13,7 +13,7 @@ Before running the application, ensure you have Docker installed on your system.
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/mohamedojaheen/Cloud_Project.git
     ```
 
 2. Navigate to the project directory:
